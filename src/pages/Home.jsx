@@ -15,7 +15,7 @@ const Home = () => {
   };
 
   useEffect(() => {
-    const Url_final = `https://servicos.jbrj.gov.br/flora/genus/pitaiya`;
+    const Url_final = ``;
     getPlants(Url_final);
   }, []); // vetor de condição vazio
 

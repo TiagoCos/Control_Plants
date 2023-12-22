@@ -1,0 +1,9 @@
+.main{
+   
+    box-sizing: border-box;
+}
+.Form-cadastro{
+    display: inline-block ;
+    padding: 50px;
+    
+}

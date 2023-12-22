@@ -6,8 +6,9 @@ import App from './App.jsx'
 import Home from './pages/Home.jsx'
 import Search from './pages/Search.jsx'
 import Plants from './pages/Plants.jsx' 
-
+import Cadastro from './pages/Cadastro.jsx'
 import './index.css'
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BrowserRouter>
@@ -16,6 +17,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
             <Route path='/' element={<Home/>}/>
             <Route path='plants/:id' element={<Plants/>}/>
             <Route path='search' element={<Search/>}/>
+            <Route path='cadastro' element={<Cadastro/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
