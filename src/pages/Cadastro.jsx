@@ -10,16 +10,16 @@ function Cadastro() {
             <input type="text" placeholder='Ex: morango'/>
 
             <label>Qual o tamanho da planta?</label>
-            <input type="number"  />
+            <input type="text"  />
             
             <label>Qual a idade da planta?</label>
             <input type="number "/>
         
             <label>Especifique a espécie </label> {/*buscar na API de plantas depois*/}
             <input type="text"/>
-
+            
+            <label>Estágio de crescimento</label>
             <select >
-                <label>Estágio de crescimento</label>
                 <option disabled>Selecione</option>
                 <option value="Broto">Broto</option>
                 <option value="Muda">Muda</option>
