@@ -8,7 +8,8 @@
     margin: 0 auto 300px;
     background-color: #efefef;
     padding: 20px 30px;
-    border: red solid 1px;
+    border: rgb(105, 103, 103) solid 1px;
+    margin-top: 5em;
 }
 .Form-cadastro > button{
     background-color: #333974;
