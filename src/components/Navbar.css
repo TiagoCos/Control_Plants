@@ -1,13 +1,25 @@
-.nav{
+.nav {
     width: 100%;
     background-color: rgb(199, 190, 138);
-    height: 3em;
+    height: 4em;
+    padding-top: 1em;
 }
-.pesquisa{
-   
- cursor: pointer;
-    
+
+.pesquisa {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5em;
+
 }
-.pesquisa > input{
-    justify-self: end;
+
+.pesquisa>input {
+    margin-left: 3em;
+    border-radius: 5px;
+
+}
+
+.search-btn {
+    padding: 3px;
 }
